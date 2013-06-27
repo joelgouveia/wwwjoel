@@ -1,0 +1,485 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Up and Running with Bootstrap</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+<link href="css/custom.css" rel="stylesheet" type="text/css">
+<!-- HTML5 shim for IE backwards compatibility -->
+<!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="container-fluid bar01"> </div>
+<div class="container-fluid bg01">
+  <div class="container">
+    <header class="row-fluid">
+      <nav class="span2" data-spy="affix"> <span class="span12"> <img src="img/joelgouveia.png" alt="Logotipo Joel Gouveia" title="Joel Gouveia" class="logo" />
+        <div class="hide-show_01  pull-right">
+          <ul class="span12 nav bs-docs-sidenav">
+            <li class="pull"><a href="#projetos"><i class="icon-chevron-right"></i> Projetos</a></li>
+            <li><a href="#quemsou"><i class="icon-chevron-right"></i> Quem sou</a></li>
+            <li><a href="#foco"><i class="icon-chevron-right"></i> Foco</a></li>
+            <li><a href="#ferramentas"><i class="icon-chevron-right"></i> Ferramentas</a></li>
+            <li><a href="#launch" data-toggle="modal"><i class="icon-chevron-right"></i> Contato</a></li>
+          </ul>
+        </div>
+        </span>
+        <div class="nav-hidden">
+          <ul class="span12 nav bs-docs-sidenav">
+            <li><a href="#projetos"><i class="icon-chevron-right"></i> Projetos</a></li>
+            <li><a href="#quemsou"><i class="icon-chevron-right"></i> Quem sou</a></li>
+            <li><a href="#foco"><i class="icon-chevron-right"></i> Foco</a></li>
+            <li><a href="#ferramentas"><i class="icon-chevron-right"></i> Ferramentas</a></li>
+            <li><a href="#launch" data-toggle="modal"><i class="icon-chevron-right"></i> Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="row-fluid offset2">
+      <div class="carousel slide span10 shadow" id="portfolio">
+        <div class="carousel-inner">
+          <div class="item  active"> <img src="img/projetos/port.jpg" alt="LaVonne LaRue. "  class="galeria">
+            <div class="carousel-caption">
+              <h4>LaVonne LaRue</h4>
+              <p>LaVonne's giant-sized paintings all around Chicago tell the story of love, nature, and conservation. </p>
+            </div>
+          </div>
+          <div class="item "> <img src="img/projetos/portb.jpg" alt="Constance Smith." class="galeria">
+            <div class="carousel-caption">
+              <h4>Constance Smith</h4>
+              <p>Constance received the Fullerton-Brighton-Norwell Award for Modern Art for her mixed-media image of a tree of life. </p>
+            </div>
+          </div>
+        </div>
+        <a href="#portfolio" class="left carousel-control" data-slide="prev">&lsaquo;</a> <a href="#portfolio" class="right carousel-control" data-slide="next">&rsaquo;</a> </div>
+    </section>
+  </div>
+</div>
+<div class="container-fluid bar02"> </div>
+<!---->
+<div class="container margin01">
+  <section class="row-fluid offset2">
+    <article class="span3"> <img src="img/art2.jpg" class="img-circle shadow"> </article>
+    <article class="span3"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishin </article>
+    <article class="span3"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishin <a href="#" class="btn_lin">linkedin</a> </article>
+  </section>
+</div>
+<!---->
+<div class="container-fluid bar01"> </div>
+<div class="container-fluid bg01">
+  <div class="container">
+   <section class="row-fluid offset2">
+    <article class="span5"><h1>Branding</h1> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishin </article>
+    <article class="span5"><h1>Digital</h1> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishin </article>
+  </section>
+  
+   </div>
+</div>
+<div class="container-fluid bar02"> </div>
+<!----> 
+<div class="container margin01">
+  <section class="row-fluid offset2">
+    <article class="span3">
+    <form id="filter">
+    <fieldset>
+      <legend>Filter by type</legend>
+      <label><input type="radio" name="type" value="all" checked="checked">Global</label>
+      <label><input type="radio" name="type" value="id">Identidade visual</label>
+      <label><input type="radio" name="type" value="sdm">Site (desktop e mobile)</label>
+      <label><input type="radio" name="type" value="sjs">Site + Galeria/Slider/Animações/etc</label>	
+      <label><input type="radio" name="type" value="sphp">Site administrável (login/notícias/etc)</label>	      	
+      <label><input type="radio" name="type" value="ogby">Otimização de Sites para o Google/Bing</label>
+      <label><input type="radio" name="type" value="app">Aplicativos Web para smartphones e tablets</label>
+      <label><input type="radio" name="type" value="sman">Manutenção de Sites</label>
+    </fieldset>
+    </form>
+    
+     <p id="load-webbies">
+    <a href="http://www.happywebbies.com/">Webbies</a>: 
+    <a class="button" href="http://razorjack.net/quicksand/demos/ajax-brits.html">Brits</a>
+    <a class="button" href="http://razorjack.net/quicksand/demos/ajax-developers.html">Developers</a>
+    <a class="button" href="http://razorjack.net/quicksand/demos/ajax-westerners.html">Westerners</a>
+    <a class="button" href="http://razorjack.net/quicksand/demos/ajax-designers.html">Designers</a>
+    <a class="button" href="testec.html">Legends</a>
+  </p>
+    
+     </article>
+
+    <article class="span7 teste">
+    
+<ul id="applications" class="image-grid">
+<!-- global -->
+    <li data-id="id-10" data-type="all">
+      <img width="100" height="100" src="img/tools/lapis.png" />
+      <strong>Criação</strong>
+    </li>
+    <li data-id="id-1" data-type="all">
+      <img width="100" height="100" src="img/tools/ai.png" />
+      <strong>Illustrator</strong>
+    </li>
+    <li data-id="id-2" data-type="all">
+      <img width="100" height="100" src="img/tools/ajax.png" />
+      <strong>Ajax</strong>
+    </li>
+    <li data-id="id-3" data-type="all">
+      <img width="100" height="100" src="img/tools/css.png" />
+      <strong>CSS 3</strong>
+    </li>
+    <li data-id="id-4" data-type="all">
+      <img width="100" height="100" src="img/tools/dw.png" />
+      <strong>Dreamweaver</strong>
+    </li>
+    <li data-id="id-6" data-type="all">
+      <img width="100" height="100" src="img/tools/html.png" />
+      <strong>HTML 5</strong>
+    </li>
+    <li data-id="id-7" data-type="all">
+      <img width="100" height="100" src="img/tools/id.png" />
+      <strong>Indesign</strong>
+    </li>
+    <li data-id="id-8" data-type="all">
+      <img width="100" height="100" src="img/tools/joomla.png" />
+      <strong>Joomla!</strong>
+    </li>
+    <li data-id="id-9" data-type="all">
+      <img width="100" height="100" src="img/tools/jquery.png" />
+      <strong>Js/Jquery</strong>
+    </li>
+    <li data-id="id-11" data-type="all">
+      <img width="100" height="100" src="img/tools/mysql.png" />
+      <strong>Mysql</strong>
+    </li>
+    <li data-id="id-12" data-type="all">
+      <img width="100" height="100" src="img/tools/php.png" />
+      <strong>PHP</strong>
+    </li>
+    <li data-id="id-13" data-type="all">
+      <img width="100" height="100" src="img/tools/ps.png" />
+      <strong>Photoshop</strong>
+    </li>
+    <li data-id="id-14" data-type="all">
+      <img width="100" height="100" src="img/tools/seo.png" />
+      <strong>SEO (Google/Bing)</strong>
+    </li>
+    <li data-id="id-15" data-type="all">
+      <img width="100" height="100" src="img/tools/wordpress.png" />
+      <strong>Wordpress</strong>
+    </li>
+
+<!-- id -->
+	<li data-id="id-10" data-type="id" >
+      <img width="100" height="100" src="img/tools/lapis.png" />
+      <strong>Criação</strong>
+    </li>
+    <li data-id="id-1" data-type="id" >
+      <img width="100" height="100" src="img/tools/ai.png" />
+      <strong>Illustrator</strong>
+    </li>
+    <li data-id="id-7" data-type="id" >
+      <img width="100" height="100" src="img/tools/id.png" />
+      <strong>Indesign</strong>
+    </li>
+    <li data-id="id-13" data-type="id" >
+      <img width="100" height="100" src="img/tools/ps.png" />
+      <strong>Photoshop</strong>
+    </li>
+    
+<!-- Site -->
+    <li data-id="id-10" data-type="sdm" >
+      <img width="100" height="100" src="img/tools/lapis.png" />
+      <strong>Criação</strong>
+    </li>
+    <li data-id="id-1" data-type="sdm" >
+      <img width="100" height="100" src="img/tools/ai.png" />
+      <strong>Illustrator</strong>
+    </li>
+    <li data-id="id-3" data-type="sdm" >
+      <img width="100" height="100" src="img/tools/css.png" />
+      <strong>CSS 3</strong>
+    </li>
+    <li data-id="id-4" data-type="sdm" >
+      <img width="100" height="100" src="img/tools/dw.png" />
+      <strong>Dreamweaver</strong>
+    </li>
+    <li data-id="id-6" data-type="sdm" >
+      <img width="100" height="100" src="img/tools/html.png" />
+      <strong>HTML 5</strong>
+    </li>
+    <li data-id="id-13" data-type="sdm" >
+      <img width="100" height="100" src="img/tools/ps.png" />
+      <strong>Photoshop</strong>
+    </li>
+    <li data-id="id-14" data-type="sdm" >
+      <img width="100" height="100" src="img/tools/seo.png" />
+      <strong>SEO (Google/Bing)</strong>
+    </li>
+    
+    
+<!-- Site JS -->
+    <li data-id="id-10" data-type="sjs" >
+      <img width="100" height="100" src="img/tools/lapis.png" />
+      <strong>Criação</strong>
+    </li>
+    <li data-id="id-1" data-type="sjs" >
+      <img width="100" height="100" src="img/tools/ai.png" />
+      <strong>Illustrator</strong>
+    </li>
+    <li data-id="id-3" data-type="sjs" >
+      <img width="100" height="100" src="img/tools/css.png" />
+      <strong>CSS 3</strong>
+    </li>
+    <li data-id="id-4" data-type="sjs" >
+      <img width="100" height="100" src="img/tools/dw.png" />
+      <strong>Dreamweaver</strong>
+    </li>
+    <li data-id="id-6" data-type="sjs" >
+      <img width="100" height="100" src="img/tools/html.png" />
+      <strong>HTML 5</strong>
+    </li>
+    <li data-id="id-9" data-type="sjs" >
+      <img width="100" height="100" src="img/tools/jquery.png" />
+      <strong>Js/Jquery</strong>
+    </li>
+    <li data-id="id-13" data-type="sjs" >
+      <img width="100" height="100" src="img/tools/ps.png" />
+      <strong>Photoshop</strong>
+    </li>
+    <li data-id="id-14" data-type="sjs" >
+      <img width="100" height="100" src="img/tools/seo.png" />
+      <strong>SEO (Google/Bing)</strong>
+    </li>
+
+<!-- Site ADM -->
+    <li data-id="id-10" data-type="sphp" >
+      <img width="100" height="100" src="img/tools/lapis.png" />
+      <strong>Criação</strong>
+    </li>
+    <li data-id="id-1" data-type="sphp" >
+      <img width="100" height="100" src="img/tools/ai.png" />
+      <strong>Illustrator</strong>
+    </li>
+    <li data-id="id-2" data-type="sphp" >
+      <img width="100" height="100" src="img/tools/ajax.png" />
+      <strong>Ajax</strong>
+    </li>
+    <li data-id="id-3" data-type="sphp" >
+      <img width="100" height="100" src="img/tools/css.png" />
+      <strong>CSS 3</strong>
+    </li>
+    <li data-id="id-4" data-type="sphp" >
+      <img width="100" height="100" src="img/tools/dw.png" />
+      <strong>Dreamweaver</strong>
+    </li>
+    <li data-id="id-6" data-type="sphp" >
+      <img width="100" height="100" src="img/tools/html.png" />
+      <strong>HTML 5</strong>
+    </li>
+    <li data-id="id-11" data-type="sphp" >
+      <img width="100" height="100" src="img/tools/mysql.png" />
+      <strong>Mysql</strong>
+    </li>
+    <li data-id="id-12" data-type="sphp" >
+      <img width="100" height="100" src="img/tools/php.png" />
+      <strong>PHP</strong>
+    </li>
+    <li data-id="id-13" data-type="sphp" >
+      <img width="100" height="100" src="img/tools/ps.png" />
+      <strong>Photoshop</strong>
+    </li>
+    <li data-id="id-14" data-type="sphp" >
+      <img width="100" height="100" src="img/tools/seo.png" />
+      <strong>SEO (Google/Bing)</strong>
+    </li>
+    
+<!-- Otimização -->
+    <li data-id="id-10" data-type="ogby" >
+      <img width="100" height="100" src="img/tools/lapis.png" />
+      <strong>Criação</strong>
+    </li>
+    <li data-id="id-3" data-type="ogby" >
+      <img width="100" height="100" src="img/tools/css.png" />
+      <strong>CSS 3</strong>
+    </li>
+    <li data-id="id-4" data-type="ogby" >
+      <img width="100" height="100" src="img/tools/dw.png" />
+      <strong>Dreamweaver</strong>
+    </li>
+    <li data-id="id-6" data-type="ogby" >
+      <img width="100" height="100" src="img/tools/html.png" />
+      <strong>HTML 5</strong>
+    </li>
+    <li data-id="id-14" data-type="ogby" >
+      <img width="100" height="100" src="img/tools/seo.png" />
+      <strong>SEO (Google/Bing)</strong>
+    </li>
+    
+<!-- app -->
+    <li data-id="id-10" data-type="app" >
+      <img width="100" height="100" src="img/tools/lapis.png" />
+      <strong>Criação</strong>
+    </li>
+    <li data-id="id-1" data-type="app" >
+      <img width="100" height="100" src="img/tools/ai.png" />
+      <strong>Illustrator</strong>
+    </li>
+    <li data-id="id-3" data-type="app" >
+      <img width="100" height="100" src="img/tools/css.png" />
+      <strong>CSS 3</strong>
+    </li>
+    <li data-id="id-4" data-type="app" >
+      <img width="100" height="100" src="img/tools/dw.png" />
+      <strong>Dreamweaver</strong>
+    </li>
+    <li data-id="id-6" data-type="app" >
+      <img width="100" height="100" src="img/tools/html.png" />
+      <strong>HTML 5</strong>
+    </li>
+    <li data-id="id-9" data-type="app" >
+      <img width="100" height="100" src="img/tools/jquery.png" />
+      <strong>Js/Jquery</strong>
+    </li>
+    <li data-id="id-13" data-type="app" >
+      <img width="100" height="100" src="img/tools/ps.png" />
+      <strong>Photoshop</strong>
+    </li>
+    <li data-id="id-14" data-type="app" >
+      <img width="100" height="100" src="img/tools/seo.png" />
+      <strong>SEO (Google/Bing)</strong>
+    </li>
+    
+    
+    <!-- manutenção -->
+    <li data-id="id-2" data-type="sman" >
+      <img width="100" height="100" src="img/tools/ajax.png" />
+      <strong>Ajax</strong>
+    </li>
+    <li data-id="id-3" data-type="sman" >
+      <img width="100" height="100" src="img/tools/css.png" />
+      <strong>CSS 3</strong>
+    </li>
+    <li data-id="id-4" data-type="sman" >
+      <img width="100" height="100" src="img/tools/dw.png" />
+      <strong>Dreamweaver</strong>
+    </li>
+    <li data-id="id-6" data-type="sman" >
+      <img width="100" height="100" src="img/tools/html.png" />
+      <strong>HTML 5</strong>
+    </li>
+    <li data-id="id-8" data-type="sman" >
+      <img width="100" height="100" src="img/tools/joomla.png" />
+      <strong>Joomla!</strong>
+    </li>
+    <li data-id="id-9" data-type="sman" >
+      <img width="100" height="100" src="img/tools/jquery.png" />
+      <strong>Js/Jquery</strong>
+    </li>
+    <li data-id="id-11" data-type="sman" >
+      <img width="100" height="100" src="img/tools/mysql.png" />
+      <strong>Mysql</strong>
+    </li>
+    <li data-id="id-12" data-type="sman" >
+      <img width="100" height="100" src="img/tools/php.png" />
+      <strong>PHP</strong>
+    </li>
+    <li data-id="id-14" data-type="sman" >
+      <img width="100" height="100" src="img/tools/seo.png" />
+      <strong>SEO (Google/Bing)</strong>
+    </li>
+    <li data-id="id-15" data-type="sman" >
+      <img width="100" height="100" src="img/tools/wordpress.png" />
+      <strong>Wordpress</strong>
+    </li>
+
+</ul>
+    
+    
+    
+    </article>
+  </section>
+</div>
+
+
+
+<!--  
+        <article class="span9 offset2">
+        	<h2>Article title</h2>
+        	<p>Here is the main content area of this web page.</p>
+        </article>
+ 
+    
+    <section class="row-fluid">
+    	<article class="span9 offset3">
+        	<h2>Another Article</h2>
+        	<p>Here is another article.</p>
+        </article>
+    </section>
+    
+    <section class="row-fluid">
+    	<div class="span9 offset3">
+        	<div class="row-fluid">
+            	<div class="span6">
+                	<h3>Info Box 1</h3>
+                    <img src="img/art1.jpg" />
+                    <p>Here is some text about the picture</p>
+                </div>
+                <div class="span6">
+                	<h3>Info Box 2</h3>
+                    <img src="img/art2.jpg" />
+                    <p>Here is some text about the picture</p>
+                </div>
+            </div>        
+        </div>
+    </section>
+    
+     <section class="row-fluid">
+    	<div class="span9 offset3">
+        	<div class="row-fluid">
+            	<div class="span6">
+                	<h3>Info Box 1</h3>
+                    <img src="img/art1.jpg" />
+                    <p>Here is some text about the picture</p>
+                </div>
+                <div class="span6">
+                	<h3>Info Box 2</h3>
+                    <img src="img/art2.jpg" />
+                    <p>Here is some text about the picture</p>
+                </div>
+            </div>        
+        </div>
+    </section>
+    
+    <footer class="span2 offset10">
+    	&copy; 2012 lynda.com
+    </footer>
+
+</div>
+-->
+
+<section id="launch" class="modal hide fade">
+  <header class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h3>Roux Academy Conference</h3>
+  </header>
+  <div class="modal-body">
+  	<h4>About The Event</h4>
+  	<p>The Roux Academy's annual conference and exhibit is designed to foster a close-knit relationship amongst artists at various universities around the world. But sign up early, as this not-to-miss conference sells out quickly, and the waiting list is long. In addition, art students are encouraged to send in works from their school portfolios to be considered for hanging in the CAC exhibit halls, as well as to be selected as a Featured Artist.</p>
+  </div>
+  <footer class="modal-footer">
+    <button class="btn btn-primary" data-dismiss="modal">Close</button>
+  </footer>
+</section>
+
+<script src="js/jquery-1.7.2.min.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+<script src="js/easing.1.3.js"></script>
+<script src="js/jquery-animate-css-rotate-scale.js"></script>
+<script src="js/jquery-css-transform.js"></script>
+<script src="js/quicksand.js"></script>
+<script src="js/custom.js"></script> 
+</body>
+</html>
